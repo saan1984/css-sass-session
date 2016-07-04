@@ -7,5 +7,4 @@
 - SASS Color Methods.
 - SASS Output format(Nested Expanded Compact Compressed).
 - Compass Watcher.
-- Debugging with chrome.
 - Workshop.
