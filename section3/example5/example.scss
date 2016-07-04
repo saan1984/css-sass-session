@@ -1,0 +1,8 @@
+.fruit-container{
+  li{
+    color: red;
+    &:hover{
+      color: blue;
+    }
+  }
+}
