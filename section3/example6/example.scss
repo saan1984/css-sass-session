@@ -1,0 +1,12 @@
+
+@mixin myColor($inColor) {
+  $inColor: #00ff00 !default;
+  color: $inColor;
+}
+
+.fruit-container {
+  @include myColor(#ff0000)
+}
+.flower-container {
+  @include myColor(null)
+}
