@@ -1,0 +1,43 @@
+/*HSL colors*/
+.container, .container-one, .container-two, .container-three, .container-four, .container-five, .container-six, .container-seven, .container-eight, .container-nine, .container-ten, .container-eleven, .container-tweleve, .container-thirteen, .container-fourteen, .container-fifteen, .container-sixteen, .container-seventeen, .container-eighteen { height: 20px; width: 600px; color: #FF0000; border: 1px solid #C0C0C0; text-align: left; }
+
+.container-one { background: #00FF00; }
+
+.container-two { background: #006600; }
+
+.container-three { background: #99ff99; }
+
+.container-four { background: magenta; }
+
+.container-five { background: magenta; }
+
+.container-six { background: lime; }
+
+.container-seven { background: #738c73; }
+
+.container-seven { background: #738c73; }
+
+.container-eight { background: #0080ff; }
+
+.container-nine { background: 100%; }
+
+.container-ten { background: 120deg; }
+
+.container-eleven { background: #3d5c5c; }
+
+.container-tweleve { background: rgba(92, 66, 61, 0.2); }
+
+/*RGB colors*/
+.container-thirteen { background: #235f69; }
+
+.container-fourteen { background: rgba(35, 95, 105, 0.2); }
+
+.container-fifteen { background: 0; }
+
+.container-sixteen { background: 255; }
+
+.container-seventeen { background: 0; }
+
+.container-eighteen { background: #527075; }
+
+/*# sourceMappingURL=example.css.map */

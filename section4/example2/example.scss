@@ -1,0 +1,7 @@
+$fontSize : 16px;
+@each $container in container-1, container-2 {
+  $fontSize : $fontSize + 10;
+  .#{$container} {
+    font-size: $fontSize;
+  }
+}

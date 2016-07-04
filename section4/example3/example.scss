@@ -1,0 +1,9 @@
+$totalContainer: 2;
+$fontSize : 20px;
+@while $totalContainer > 0 {
+  $fontSize : $fontSize + 10;
+  .container-#{$totalContainer} {
+    font-size: $fontSize;
+  }
+  $totalContainer: $totalContainer - 1;
+}

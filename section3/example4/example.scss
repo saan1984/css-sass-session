@@ -1,0 +1,13 @@
+.info{
+  color: #ccc;
+  font-style: italic;
+}
+.error{
+  @extend .info;
+  color: red;
+}
+
+.success{
+  @extend .info;
+  color: green;
+}

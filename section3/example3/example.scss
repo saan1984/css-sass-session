@@ -1,0 +1,19 @@
+@mixin box-shadow($hShadow, $vShadow, $blur, $shadowColor) {
+  -webkit-box-shadow: $hShadow $vShadow $blur $shadowColor;
+  -moz-box-shadow: $hShadow $vShadow $blur $shadowColor;
+  box-shadow: $hShadow $vShadow $blur $shadowColor;
+}
+
+.afruit {
+    @include box-shadow(10px, 10px, 5px, #ff0000);
+    height:100px;
+    width:100px;
+    border:1px solid grey;
+}
+
+.bfruit {
+  @include box-shadow(10px, 10px, 5px, orange);
+  height:100px;
+  width:100px;
+  border:1px solid grey;
+}

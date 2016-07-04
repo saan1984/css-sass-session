@@ -1,0 +1,112 @@
+$containerHeight: 20px;
+$containerWidth: 600px;
+$backgroundColor: #00FF00;
+$fontColor: #FF0000;
+
+/*HSL colors*/
+.container {
+  height: $containerHeight;
+  width: $containerWidth;
+  color: $fontColor;
+  border: 1px solid #C0C0C0;
+  text-align: left;
+}
+
+.container-one {
+  @extend .container;
+  background: $backgroundColor;
+}
+
+.container-two {
+  @extend .container;
+  background: darken($backgroundColor, 30%);
+}
+
+.container-three {
+  @extend .container;
+  background: lighten($backgroundColor, 30%);
+}
+
+.container-four {
+  @extend .container;
+  background: invert($backgroundColor);
+}
+
+.container-five {
+  @extend .container;
+  background: complement($backgroundColor);
+}
+
+.container-six {
+  @extend .container;
+  background: saturate($backgroundColor, 90%);
+}
+
+.container-seven {
+  @extend .container;
+  background: desaturate($backgroundColor, 90%);
+}
+
+.container-seven {
+  @extend .container;
+  background: desaturate($backgroundColor, 90%);
+}
+
+.container-eight {
+  @extend .container;
+  background: adjust-hue($backgroundColor, 90%);
+}
+
+.container-nine {
+  @extend .container;
+  background: saturation($backgroundColor);
+}
+
+.container-ten {
+  @extend .container;
+  background: hue($backgroundColor);
+}
+
+.container-eleven {
+  @extend .container;
+  background: hsl(180, 20, 30);
+}
+
+.container-tweleve {
+  @extend .container;
+  background: hsla(10, 20, 30, 0.2);
+}
+
+/*RGB colors*/
+$myredcolor: 35;
+$mygreencolor: 95;
+$mybluecolor: 105;
+.container-thirteen {
+  @extend .container;
+  background: rgb($myredcolor, $mygreencolor, $mybluecolor);
+}
+
+.container-fourteen {
+  @extend .container;
+  background: rgba($myredcolor, $mygreencolor, $mybluecolor, 0.2);
+}
+
+.container-fifteen {
+  @extend .container;
+  background: red($backgroundColor);
+}
+
+.container-sixteen {
+  @extend .container;
+  background: green($backgroundColor);
+}
+
+.container-seventeen {
+  @extend .container;
+  background: blue($backgroundColor);
+}
+
+.container-eighteen {
+  @extend .container;
+  background: mix(rgb($myredcolor, $mygreencolor, $mybluecolor), #808080);
+}

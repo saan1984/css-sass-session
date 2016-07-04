@@ -1,0 +1,11 @@
+.info, .error, .success {
+  color: #ccc;
+  font-style: italic; }
+
+.error {
+  color: red; }
+
+.success {
+  color: green; }
+
+/*# sourceMappingURL=example.css.map */

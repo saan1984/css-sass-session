@@ -1,0 +1,17 @@
+.afruit {
+  -webkit-box-shadow: 10px 10px 5px #ff0000;
+  -moz-box-shadow: 10px 10px 5px #ff0000;
+  box-shadow: 10px 10px 5px #ff0000;
+  height: 100px;
+  width: 100px;
+  border: 1px solid grey; }
+
+.bfruit {
+  -webkit-box-shadow: 10px 10px 5px orange;
+  -moz-box-shadow: 10px 10px 5px orange;
+  box-shadow: 10px 10px 5px orange;
+  height: 100px;
+  width: 100px;
+  border: 1px solid grey; }
+
+/*# sourceMappingURL=example.css.map */

@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>@while in SASS</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+<h4>HSL Color Methods:-</h4>
+<div class='container-one'> background: $backgroundColor; </div>
+<div class='container-two'> background: darken($backgroundColor, 30%); </div>
+<div class='container-three'> background: lighten($backgroundColor, 30%); </div>
+<div class='container-four'> background: invert($backgroundColor); </div>
+<div class='container-five'> background: complement($backgroundColor); </div>
+<div class='container-six'> background: saturate($backgroundColor,90%); </div>
+<div class='container-seven'> background: desaturate($backgroundColor,90%); </div>
+<div class='container-eight'> background: adjust-hue($backgroundColor,90%); </div>
+<div class='container-nine'> background: saturation($backgroundColor); </div>
+<div class='container-ten'> background: hue($backgroundColor); </div>
+<div class='container-eleven'> background: hsl(180, 20, 30); </div>
+<div class='container-tweleve'> background: hsla(10, 20, 30,0.2); </div>
+<h4>RGB Color Methods:-</h4>
+<div class='container-thirteen'> background: rgb($myredcolor, $mygreencolor, $mybluecolor); </div>
+<div class='container-fourteen'> background: rgba($myredcolor, $mygreencolor, $mybluecolor, 0.2); </div>
+<div class='container-fifteen'> background: red($backgroundColor); </div>
+<div class='container-sixteen'> background: green($backgroundColor); </div>
+<div class='container-seventeen'> background: blue($backgroundColor); </div>
+<div class='container-eighteen'> background: mix(rgb($myredcolor, $mygreencolor, $mybluecolor), #808080); </div>
+</body>
+</html>

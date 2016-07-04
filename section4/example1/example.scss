@@ -1,0 +1,17 @@
+
+@mixin message-style($containername) {
+  font-style: italic;
+  @if $containername == primary {
+    color: #0000ff;
+  } @else{
+    color: #FF0000;
+  }
+}
+
+h1{
+  @include message-style(primary);
+}
+
+h2{
+  @include message-style(null);
+}
