@@ -1,2 +1,2 @@
 ### Example5
-- & operator, refers to parent
+- & operator, refers to parent/scope
